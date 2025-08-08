@@ -16,12 +16,12 @@ function App() {
     <>
       <div className='d-flex'>
         <SideBar opened={sideBarOpened} />
-        <div className=' flex-grow-1 bg-warning'>
+        <div className=' flex-grow-1 bg-main'>
           <NavBar onHamburgerClick={() => {
             setSideBarOpened(!sideBarOpened);
           }} />
           <main>
-            <Container>
+            <Container className='pt-5'>
               <Home />
             </Container>
 

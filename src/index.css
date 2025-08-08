@@ -50,3 +50,8 @@
 .more-to-explore-card h5 {
     color: #8E1220;
 }
+
+.bg-main {
+    background: #1F1F1F;
+    color: white;
+}
